@@ -1,0 +1,25 @@
+doctype html
+html(lang="tr")
+  head
+    meta(name='viewport', content='initial-scale=1, maximum-scale=1, user-scalable=no')
+    
+    title= title
+    
+    base(href='/')
+
+    // favicon
+    link(rel='shortcut icon' type='image/png' href='/assets/img/favicon.png')
+
+    link(rel='stylesheet', href='//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/assets/css/style.css')
+    
+    block css
+    
+  body
+  
+    block content
+
+    script(type='text/javascript', href='//code.jquery.com/jquery-3.4.1.min.js')
+    script(type='text/javascript', href='//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+
+    block js

@@ -1,0 +1,29 @@
+{
+  "name": "nodeapi",
+  "description": "NodeJS api starter kit.",
+  "main": "",
+  "authors": [
+    "Mustafa Akbaş <makbash21@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "express",
+    "routing",
+    "dynamic",
+    "routing",
+    "es6",
+    "quickstart"
+  ],
+  "homepage": "https://makbash@bitbucket.org/makbash/nodeapi",
+  "dependencies": {
+    "angular": "^1.7.5",
+    "angular-route": "^1.7.5",
+    "angular-animate": "^1.7.5",
+    "angular-aria": "^1.7.5",
+    "angular-material": "^1.1.10",
+    "material-design-iconic-font": "^2.2.0"
+  }
+}
