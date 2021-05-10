@@ -36,10 +36,10 @@ export default new class Server {
         App.use(BodyParser.json());
         App.use(CookieParser());
 
-        App.set('views', path.join(__dirname, 'Views'));
+        App.set('views', path.join(__dirname, '../public/views'));
         App.set('view engine', 'pug');
-        App.use(Express.static(path.join(__dirname, 'Public')));
-        App.use(Express.static('bower_components'));
+        App.use(Express.static(path.join(__dirname, '../public/assets')));
+        // App.use(Express.static('bower_components'));
     }
 
     SetServer() {
